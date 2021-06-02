@@ -1,0 +1,58 @@
+Hi Silvia! 🙋‍♂️ Here I send you some feedback about your prework 😀 
+
+First of all, I want to congratulate you for a great work. You did all the exercises, inclusing the bonuses, which is really important for your learning process. 
+
+On the following lines I will send you some feedback about the prework exercises. Most of the are not about mistakes, they are proposals in case you would like to make changes in your code.
+
+1 - Snail-and-Well
+
+Bonus: In this case, on the fifth day the snail reaches the 125cm, so if you would have counted 5 using snail_position >= 125 would have also been correct.
+
+You used a for loop, which is fine. Using a while loop like the previous exercise would have also been an option. 
+
+Great job!
+
+2 - Duel-of-Sorcerers
+
+In the first task you put `spells = 10` to store the number of spells that the sourcerer casts. Another option would be to save it as `spells = len(gandalf)` or Saruman, so you do not need to count them (in case you did so). 
+
+In the fourth question you showed the amount of battles won by each (6 by Gandalf and 4 by Saruman). In this case I would add if statements to check who won, as you did in the exercise 11 of the Rock-Paper-Scissors exercise.  
+
+A couple of suggestions for the bonus: There is no need for the empty string at the beginnig `winner = ""`, as you declare the winner bellow in the last if statement. 
+
+When Gandalf wins, afterwards you add `saruman_wins -= saruman_wins`, but in this case it should be restarted to 0. Therefore, it is better to put gandalf_wins = 0. 
+
+3 - Bus
+
+Nothing to add here 😀 
+
+4 - Robin-Hood 
+
+There are 22 arrows in total, and adding the length of the five lists you created one is missing (in Q1). With some small changes, we can get that arrow too 🎯
+
+I would delete the arrows = 0, the while condition and the arrows += 1 bellow. 
+
+Then, in the for loop also de [arrows] in each Qn.append() statement. 
+
+This way, in the Q1 will have 10 arrows instead of 9.
+
+5 - Temperature-Processor
+
+Nothing to add here either 😀 
+
+6 - Rock-Paper-Scissors
+
+When importing random, there is no need to add the `as random` afterwards. This is used only for the cases in which we want to put an abbreviation. For example, `import pandas as pd`. 
+
+In these exercises it is important to use functions, putting the code inside them so you can call them afterwards. Here I send you some documentation about how the functions work. 
+
+[W3 school - functions documentation](https://www.w3schools.com/python/python_functions.asp) 
+[Real Python - function documentation](https://realpython.com/python-return-statement/#:~:text=The%20Python%20return%20statement%20is%20a%20special%20statement%20that%20you,can%20be%20any%20Python%20object.) 
+
+In the exercise 8, you can put the gestures in a dictionary with all the combinations (the winning gesture as key and the losing gesture as value `{'rock': 'scissors'}`ans so on), and then use them to check the gestures. 
+
+In the bonus you just need to add the Lizard and Spoke gestures. 
+
+Again, this was a really good prework. Now enjoy this bootcamp and learn as much as possible 🚀 
+
+<img width=1000 src="./meme_prework.png">
